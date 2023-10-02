@@ -1021,7 +1021,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		/* @media screen and (max-width: 980px) { */
 
 			.row {
 				display: flex;
@@ -1264,7 +1264,7 @@ input, select, textarea {
 							padding-top: 4em;
 						}
 
-		}
+		/* } */
 
 		@media screen and (max-width: 736px) {
 
