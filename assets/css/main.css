@@ -434,6 +434,11 @@ input, select, textarea {
 			margin-left: 0em;
 		}
 
+		.profile-pick {
+			width: 500px;
+			border-radius: 100px;
+		}
+
 			.row.gtr-0 > * {
 				padding: 0 0 0 0em;
 			}
@@ -3509,4 +3514,15 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+	}
+
+	/*My Adjustments*/
+
+	.profile-pick {
+		width: 250px;
+		margin: 4rem;
+	}
+
+	.gtr-150 > div{
+		margin: 2rem 0;
 	}
