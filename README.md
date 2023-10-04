@@ -12,4 +12,4 @@ I'm committed to continuously improving and expanding this portfolio, so please 
 
 Thank you for visiting!
 
-[View Portfolio]([https://yourportfolioURLhere.com](https://fabianoglentini.github.io/Portfolio-Website/)https://fabianoglentini.github.io/Portfolio-Website/)
+[View Portfolio](https://fabianoglentini.github.io/Portfolio-Website/)
