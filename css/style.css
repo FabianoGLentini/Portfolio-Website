@@ -19,6 +19,15 @@ html{
 
   /*Color*/
 
+  :root {
+    --main-00: #006567;
+    --dark-acsent-00 : #006567;
+    --light-acsent-01: #C38D9D;
+    --light-acsent-02: #31A594;
+    --light-acsent-03: #9EECE0;
+    --orange-acsent: #DD7351;
+  }
+
 /******************************************
 /* LAYOUT
 /*******************************************/
