@@ -41,6 +41,7 @@ html{
 
   :root {
     --main-00: #006567;
+    --main-01: #7CC1AC;
     --dark-acsent-00 : #006567;
     --light-acsent-01: #C38D9D;
     --light-acsent-02: #31A594;
@@ -69,9 +70,15 @@ html{
    }
 
    body {
-    /* border: 2px solid red; */
+    background-color: var(--main-01);
 
-    align-items: center;
+    text-align: center;
+   }
+
+   main {
+    border: 2px solid red;
+
+    display: flex;
     text-align: center;
    }
 
@@ -82,3 +89,42 @@ html{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+   /* Header */
+
+   header {
+    border: 2px solid orange ;
+
+    width: 100%;
+   }
+
+   .header__nav {
+    border: 2px solid purple ;
+    
+    display: flex;
+    justify-content: center;
+   }
+
+   .header__nav ul {
+    border: 2px solid green;
+    
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+   }
+
+
+   /* Tittle */
+
+   .tittle {
+    padding: 15rem 0;
+   }
+
+   .tittle__img{
+    border: 2px solid purple ;
+    
+    width: 90%; 
+    height: 100%;
+    max-width: 1300px;   
+   }
