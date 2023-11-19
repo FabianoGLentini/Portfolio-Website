@@ -29,6 +29,10 @@ html{
     color: var(--acsent-02);
   }
 
+  h3 {
+    margin: 0;
+  }
+
   h4 {
     margin: 0;
   }
@@ -118,6 +122,8 @@ html{
    /* Tittle */
 
    .tittle {
+    border: 2px solid purple ;
+
     padding: 15rem 0;
    }
 
@@ -128,3 +134,27 @@ html{
     height: 100%;
     max-width: 1300px;   
    }
+
+   /* About Me */
+
+   .about-me {
+    border: 2px solid green;
+
+    padding: 3rem 5rem 10rem 5rem;
+    background-color: var(--dark-acsent-00);
+    gap: 2.5rem;
+  }
+
+  .about-me > * {
+
+    max-width: 557px;
+    margin: auto;
+  }
+
+  /* Website Section */
+
+  .websites h2 {
+
+    background-color: var(--orange-acsent);
+    margin: 0;
+  }
