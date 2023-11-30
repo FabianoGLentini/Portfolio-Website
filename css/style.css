@@ -127,13 +127,24 @@ html{
     padding: 15rem 0;
    }
 
-   .tittle__img{
+   .tittle__img {
     border: 2px solid purple ;
     
     width: 90%; 
     height: 100%;
     max-width: 1300px;   
    }
+    /*Social Media*/
+      .social-medias {
+
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 130px;
+      }
+
+      .social-medias img {
+        width: 30px;
+      }
 
    /* About Me */
 
