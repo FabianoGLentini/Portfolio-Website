@@ -169,3 +169,30 @@ html{
     background-color: var(--orange-acsent);
     margin: 0;
   }
+
+  .website__section {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+  .website__body {
+    border: 2px solid green;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .website__left-side {
+    border: 2px solid purple;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }  
+
+  .website__right-side {
+
+
+    width: 50%;
+  }
