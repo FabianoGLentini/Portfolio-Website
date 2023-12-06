@@ -133,6 +133,10 @@ html{
     padding: 15rem 0;
    }
 
+   .tittle > * {
+    margin-bottom: 9px;
+   }
+
    .tittle__img {
     border: 2px solid purple ;
     
@@ -140,29 +144,36 @@ html{
     height: 100%;
     max-width: 1300px;   
    }
+
     /*Social Media*/
       .social-medias {
 
         justify-content: space-around;
         margin: 0 auto;
-        width: 15rem;
+        width: 12rem;
       }
 
       .social-medias img {
-        width: 2.5rem;
+        width: 2.2rem;
       }
 
    /* About Me */
 
    .about-me {
+    background-color: var(--main-00);
+   }
+
+   .about-me__body {
     border: 2px solid green;
 
     padding: 3rem 5rem 10rem 5rem;
-    background-color: var(--dark-acsent-00);
+    margin: 0 auto;
+    /* background-color: var(--dark-acsent-00); */
     gap: 2.5rem;
+    width: 50rem;
   }
 
-  .about-me > * {
+  .about-me__body > * {
 
     max-width: 557px;
     margin: auto;
