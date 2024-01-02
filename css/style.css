@@ -153,8 +153,21 @@ html{
 
   /* Website Section */
 
+  /* .websites {
+    max-width: ;
+  } */
+
   .websites h2 {
 
     background-color: var(--orange-acsent);
     margin: 0;
+    padding: 4rem;
   }
+
+    /* Cafe-Boulage Website */
+
+    .website--cafe-boulange {
+      border: 2px solid purple;
+
+      padding: 5rem;
+    }
