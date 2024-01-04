@@ -225,3 +225,18 @@ html{
   .dark-bg {
     background-color: var(--main-00);
   }
+
+
+  /* Footer Section */
+
+  footer {
+    border: 2px solid purple;
+
+    background-color: var(--orange-acsent);
+    padding: 35px;
+    gap: 5px;
+  }
+
+  footer > * {
+    border: 2px solid red;
+  }
