@@ -86,6 +86,12 @@ html{
     text-align: center;
    }
 
+   button {
+
+    margin: 0 auto;
+    width: 75px;
+   }
+
 
 
 
@@ -127,7 +133,11 @@ html{
     padding: 15rem 0;
    }
 
-   .tittle__img{
+   .tittle > * {
+    margin-bottom: 9px;
+   }
+
+   .tittle__img {
     border: 2px solid purple ;
     
     width: 90%; 
@@ -135,17 +145,35 @@ html{
     max-width: 1300px;   
    }
 
+    /*Social Media*/
+      .social-medias {
+
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 12rem;
+      }
+
+      .social-medias img {
+        width: 2.2rem;
+      }
+
    /* About Me */
 
    .about-me {
+    background-color: var(--main-00);
+   }
+
+   .about-me__body {
     border: 2px solid green;
 
     padding: 3rem 5rem 10rem 5rem;
-    background-color: var(--dark-acsent-00);
+    margin: 0 auto;
+    /* background-color: var(--dark-acsent-00); */
     gap: 2.5rem;
+    width: 50rem;
   }
 
-  .about-me > * {
+  .about-me__body > * {
 
     max-width: 557px;
     margin: auto;
@@ -153,21 +181,47 @@ html{
 
   /* Website Section */
 
-  /* .websites {
-    max-width: ;
-  } */
+  .website-tittle {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange-acsent);
+    height: 60px;
+  }
 
   .websites h2 {
 
-    background-color: var(--orange-acsent);
     margin: 0;
-    padding: 4rem;
   }
 
-    /* Cafe-Boulage Website */
+  .website__section {
+    
+    display: flex;
+    flex-direction: column;
+  }
 
-    .website--cafe-boulange {
-      border: 2px solid purple;
+  .website__body {
+    border: 2px solid green;
 
-      padding: 5rem;
-    }
+    display: flex;
+    flex-direction: row;
+  }
+
+  .website__left-side {
+    border: 2px solid purple;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }  
+
+  .website__right-side {
+
+
+    width: 50%;
+  }
+
+  .dark-bg {
+    background-color: var(--main-00);
+  }
