@@ -20,6 +20,3 @@ Feel free to reach out to me for further details or inquiries about this project
 
 Explore my [temporary portfolio website](https://fabianoglentini.github.io/Portfolio-Website/) to get an overview of my current projects. Additionally, you can delve into the [repository](https://github.com/FabianoGLentini/Portfolio-Website/tree/Host) dedicated to the temporary website for a closer look at the code.
 
-
-
-![Cafe-Boulange](https://github.com/FabianoGLentini/Website_Coffee_Backery/assets/132173298/120ad1b0-2d51-466c-8073-ce841135f1e4)
