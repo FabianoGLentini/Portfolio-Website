@@ -7,8 +7,6 @@ Welcome to the repository of my portfolio website. This project serves as a show
 Explore my [Figma design](https://github.com/FabianoGLentini/Portfolio-Website/assets/132173298/58302693-9201-423b-917d-c3d63923bef3) that serves as the foundation for this website's development. I intend to refine the design, add new pages, and incorporate additional features as the project progresses.
 ![Portfolio Website Design](https://github.com/FabianoGLentini/Portfolio-Website/assets/132173298/58302693-9201-423b-917d-c3d63923bef3)
 
-![Design Preview](#)
-
 ## Future Expansion
 
 I am actively developing a fully self-created portfolio, encompassing both design and code, for future showcasing of my work.
