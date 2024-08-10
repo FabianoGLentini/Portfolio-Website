@@ -53,6 +53,63 @@ html{
     --orange-acsent: #DD7351;
   }
 
+    
+  /*Import Fonts*/
+
+  @font-face {
+    font-family: "Roboto-Bold";
+    font-style: "Bold";
+    /* font-weight: 700; */
+    src: url("assets/Fonts/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Roboto-Black";
+    font-style: "Black";
+    /* font-weight: 700; */
+    src: url("assets/Fonts/Roboto-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "Quicksand-Medium";
+    font-style: "Medium";
+    font-weight: 500;
+    src: url("assets/Fonts/Quicksand-Medium.ttf");
+  }
+
+ /*Font*/
+
+ h1 {
+  font-family: "Roboto-Bold";
+  font-size: 14.8rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Roboto-Bold";
+  font-size: 6.4rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: "Roboto-Bold";
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 2.5rem 0 2.5rem 0;
+}
+
+h4 {
+  font-family: "Roboto-Bold";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Roboto-Black";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
