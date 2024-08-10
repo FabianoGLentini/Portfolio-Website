@@ -170,7 +170,7 @@ html{
     margin: 0 auto;
     /* background-color: var(--dark-acsent-00); */
     gap: 2.5rem;
-    width: 50rem;
+    width: min(50rem, 100%);
   }
 
   .about-me__body > * {
