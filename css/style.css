@@ -150,7 +150,7 @@ a {
 
 
 /******************************************
-/* LAYOUT
+/* GENERAL LAYOUT
 /*******************************************/
 
   /*General Layout*/
@@ -193,7 +193,7 @@ a {
 
 
 /******************************************
-/* ADDITIONAL STYLES
+/* LAYOUT
 /*******************************************/
 
 
@@ -314,12 +314,17 @@ a {
 
   .website__right-side {
 
-
     width: 50%;
   }
 
   .dark-bg {
     background-color: var(--main-00);
+  }
+
+  .website__body img {
+    width: 40rem;
+    height: 35rem;
+    border-radius: 4rem;
   }
 
 
