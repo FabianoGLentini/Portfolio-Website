@@ -10,7 +10,7 @@
 /*Font set up*/
 
 html{
-  font-size: 62%;
+  font-size: 62.5%;
 }
 
   /*Extra Normalizing*/
@@ -59,14 +59,14 @@ html{
   @font-face {
     font-family: "Roboto-Bold";
     font-style: "Bold";
-    /* font-weight: 700; */
+    font-weight: 700;
     src: url("assets/Fonts/Roboto-Bold.ttf");
   }
 
   @font-face {
     font-family: "Roboto-Black";
     font-style: "Black";
-    /* font-weight: 700; */
+    font-weight: 900;
     src: url("assets/Fonts/Roboto-Bold.ttf");
   }
 
@@ -77,38 +77,77 @@ html{
     src: url("assets/Fonts/Quicksand-Medium.ttf");
   }
 
+  @font-face {
+    font-family: "Inter-Regular";
+    font-style: "Regular";
+    font-weight: 400;
+    src: url("assets/Fonts/Inter_18pt-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Inter-Bold";
+    font-style: "Bold";
+    font-weight: 700;
+    src: url("assets/Fonts/Inter_24pt-Bold.ttf");
+  }
+
  /*Font*/
 
  h1 {
   font-family: "Roboto-Bold";
-  font-size: 14.8rem;
+  font-size: 8rem;
   font-weight: 700;
 }
 
 h2 {
   font-family: "Roboto-Bold";
-  font-size: 6.4rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
 h3 {
   font-family: "Roboto-Bold";
-  font-size: 4rem;
+  font-size: 3.06rem;
   font-weight: 700;
   margin: 2.5rem 0 2.5rem 0;
 }
 
 h4 {
   font-family: "Roboto-Bold";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 h5 {
   font-family: "Roboto-Black";
   font-size: 2rem;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Quicksand-Medium";
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+span {
+  font-family: "Inter-Bold";
+  font-size: 1.2rem;
   font-weight: 700;
 }
+
+a {
+  font-family: "Inter-Regular";
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.Inter-Regular {
+  font-family: "Inter-Regular";
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
 
 /******************************************
 /* LAYOUT
