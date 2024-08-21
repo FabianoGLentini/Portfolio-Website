@@ -341,3 +341,15 @@ a {
   footer > * {
     border: 2px solid red;
   }
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*Scrolling Styling*/
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 10rem;
+}
