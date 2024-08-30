@@ -224,9 +224,9 @@ a {
    /* Tittle */
 
    .tittle {
-    border: 2px solid purple ;
+    border: 10px solid purple ;
 
-    padding: 15rem 0;
+    padding: 15rem 0 0 0;
    }
 
    .tittle > * {
@@ -239,6 +239,10 @@ a {
     width: 90%; 
     height: 100%;
     max-width: 1300px;   
+   }
+
+   .wave-divider { /* Used to remove the margin-bottom: 9px; property*/
+    margin: 0;
    }
 
     /*Social Media*/
